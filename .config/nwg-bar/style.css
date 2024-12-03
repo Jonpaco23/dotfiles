@@ -1,0 +1,44 @@
+@import '../../.cache/wal/colors-waybar.css';
+
+* {
+	font-family: MesloLGS Nerd Font Mono;
+}
+
+window {
+	background-color: rgba (0, 0, 0, 0)
+}
+
+/* Outer bar container, takes all the window width/height */
+#outer-box {
+	background-color: rgba(0, 0, 0, 0);
+	margin: 0px
+}
+
+/* Inner bar container, surrounds buttons */
+#inner-box {
+	background-color: @background;
+	border-radius: 10px;
+	border-style: none;
+	border-width: 1px;
+	border-color: rgba (156, 142, 122, 0.7);
+	padding: 5px;
+	margin: 5px
+}
+
+button, image {
+	background: none;
+	border: none;
+	box-shadow: none
+}
+
+button {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin: 5px;
+	color: @color12;
+	text-shadow: none
+}
+
+button:hover {
+	background-color: rgba (255, 255, 255, 0.1)
+}
