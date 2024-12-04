@@ -20,4 +20,5 @@ pkill waybar && waybar
 
 pywalfox update
 pywal-discord -t default
+${HOME}/.config/dunst/initdunst.sh
 notify-send "BG Changed!"

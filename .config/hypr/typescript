@@ -1,0 +1,145 @@
+Script started on 2024-12-03 20:02:05-05:00 [TERM="xterm-kitty" TTY="/dev/pts/0" COLUMNS="84" LINES="41"]
+[?25l[?7l[0m[36m[1m      /\
+     /  \
+    /\   \
+[37m[0m[1m   /      \
+  /   ,,   \
+ /   |  |  -\
+/_-''    ''-_\[0m
+[7A[9999999D[17C[0m[36m[1m[31m OS [0m[0m:[0m Arch Linux x86_64[0m 
+[17C[0m[36m[1m[32m VER [0m[0m:[0m 6.12.1-arch1-1[0m 
+[17C[0m[36m[1m[33m󰥔 UP [0m[0m:[0m 4 hours, 4 mins[0m 
+[17C[0m[36m[1m[34m󰏗 PKG [0m[0m:[0m 715 (pacman)[0m 
+[17C[0m[36m[1m[35m CPU [0m[0m:[0m Intel i3-8100T (4) @ 3.100GHz[0m 
+[17C[0m[36m[1m[37m󰍛 MEM [0m[0m:[0m 2.35GiB / 7.60GiB[0m 
+[17C[0m[1m[31m [32m [33m [34m [35m [36m [37m [38;5;8m[0m 
+
+[?25h[?7h]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ scripts/initWallpaper 
+[?2004lError: "There is an swww-daemon instance already running on this socket!"
+RANDOMPICS
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mbackground.jpg[0m.
+[[1;32mI[0m] [1;31mtheme[0m: Set theme to [1;37m_home_jonathan__wallpaper_background_jpg_dark_None_None_1.1.0.json[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Found cached colorscheme.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+]4;0;#090808\]4;1;#C05431\]4;2;#D56520\]4;3;#768B5F\]4;4;#E6902A\]4;5;#BE9856\]4;6;#DB9C5E\]4;7;#eee2c8\]4;8;#a69e8c\]4;9;#C05431\]4;10;#D56520\]4;11;#768B5F\]4;12;#E6902A\]4;13;#BE9856\]4;14;#DB9C5E\]4;15;#eee2c8\]10;#eee2c8\]11;#090808\]12;#eee2c8\]13;#eee2c8\]17;#eee2c8\]19;#090808\]4;232;#090808\]4;256;#eee2c8\]708;#090808\[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+
+[40m    [0m[41m    [0m[42m    [0m[43m    [0m[44m    [0m[45m    [0m[46m    [0m[47m    [0m
+[48;5;8m    [0m[48;5;9m    [0m[48;5;10m    [0m[48;5;11m    [0m[48;5;12m    [0m[48;5;13m    [0m[48;5;14m    [0m[48;5;15m    [0m
+
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+Successfully set a new wallpaper and generated colors from it.
+[?s[*x[4l[?1l[?5l[?2004l[?1004l[?1000l[?1002l[?1003l[?1005l[?1006l[?8h[?7h[?25hP@kitty-cmd{"cmd":"set-colors","version":[0,26,0],"kitty_window_id":1,"payload":{"all":true}}\7[?r8ERROR:root:Failed to connect to socket: Connection refused
+]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ scripts/initWallpaper [2@nano hypr/hypridle.conf[C[9Pstuff.txt[Cls[Kcd .configls[Kcd. .config/ .c[Knano .config/[5Phypridlenano .config/[8Pcd .c. .config/ls[Kcd .configls[Knano stuff.txt [9@hypr/hypridle.conf[C[2Pscripts/initWallpaper[C[Knnao[K[K[K[Knano scripts/initWallpaper 
+[?2004l[?2004h[?1049h[1;41r(B[m[4l[?7h[39;49m[?1h[?1h[?25l[39;49m(B[m[H[2J[39;36H(B[0;7m[ Reading... ](B[m[39;34H(B[0;7m[ Read 19 lines ](B[m[H(B[0;7m  GNU nano 8.2                   scripts/initWallpaper                              [1;83H(B[m[40d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[40;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[41d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d#!/bin/bash[4dexport PATH="${PATH}:${HOME}/.local/bin/"[6dswww-daemon[7dDIR=$HOME/.wallpaper[8dPICS=($(ls ${DIR}))[10dRANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}[12decho RANDOMPICS[13dswww img ${DIR}/${RANDOMPICS} --transition-type grow --transition-fps 60 --transiti(B[0;7m>[14;1H(B[mwal -i ${DIR}/${RANDOMPICS}[16decho "Successfully set a new wallpaper and generated colors from it."[19dpywalfox update[20dpywal-discord -t default[2d[?12h[?25h[?25l[?12h[?25h[3d[?25l[?12h[?25h[4d[?25l[?12h[?25h[5d[?25l[1;75H(B[0;7mModified(B[m[5;38r[5;1HM[1;41r[6;1H[?12h[?25h[?25l[5;38r[5;1HM[1;41r[7;1H[?12h[?25h[?25l[?12h[?25h[A[?25l[?12h[?25hh[?25l[?12h[?25hy[?25l[?12h[?25hp[?25l[?12h[?25hr[?25l[?12h[?25hc[?25l[?12h[?25ht[?25l[?12h[?25hl[?25l[?12h[?25hd[?25l[?12h[?25hi[?25l[?12h[?25hs[?25l[?12h[?25hp[?25l[?12h[?25ha[?25l[?12h[?25h [?25l[39d[K[?12h[?25h[6;11H [?25l[?12h[?25h [?25l[?12h[?25h [?25l[?12h[?25h [?25l[?12h[?25h [?25l[?12h[?25hd[?25l[?12h[?25hi[?25l[?12h[?25hs[?25l[?12h[?25hp[?25l[?12h[?25ha[?25l[?12h[?25ht[?25l[?12h[?25hc[?25l[?12h[?25hh[?25l[?12h[?25h [?25l[?12h[?25hd[?25l[?12h[?25hp[?25l[?12h[?25hm[?25l[?12h[?25hs[?25l[?12h[?25h [?25l[?12h[?25ho[?25l[?12h[?25hn[?25l[?12h[?25h [?25l[?12h[?25h[?25l[39;36H(B[0;7m[ Writing... ](B[m[1;75H(B[0;7m        (B[m[39;34H(B[0;7m[ Wrote 21 lines ](B[m[?12h[?25h[6;25H[?25l[39d[J[41d[?12h[?25h[41;1H[?1049l[?1l[?2004l]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ nano scripts/initWallpaper [5P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@nano hypr/hypridle.conf[C[9Pstuff.txt[C[9@hypr/hypridle.conf[C[K
+[?2004l[?2004h[?1049h[1;41r(B[m[4l[?7h[39;49m[?1h[?1h[?25l[39;49m(B[m[H[2J[39;25H(B[0;1m[37m[41m[ Directory 'hypr' does not exist ][39;49m(B[m[H(B[0;7m  GNU nano 8.2                     hypr/hypridle.conf                               [1;83H(B[m[40d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[40;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[41d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12h[?25h[?25l[39;11H(B[0;1m[37m[41m[ Error writing hypr/hypridle.conf: No such file or directory ][39;49m(B[m[?12h[?25h[2d[?25l[39d[J[41d[?12h[?25h[41;1H[?1049l[?1l[?2004l]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ nano hypr
+[?2004l[?2004h[?1049h[1;41r(B[m[4l[?7h[39;49m[?1h[?1h[?25l[39;49m(B[m[H[2J[39;37H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 8.2                            hypr                                      [1;83H(B[m[40d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[40;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[41d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12h[?25h[?25l[39d[J[41d[?12h[?25h[41;1H[?1049l[?1l[?2004l]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ nano hypridle.conf 
+[?2004l[?2004h[?1049h[1;41r(B[m[4l[?7h[39;49m[?1h[?1h[?25l[39;49m(B[m[H[2J[39;36H(B[0;7m[ Reading... ](B[m[39;34H(B[0;7m[ Read 27 lines ](B[m[H(B[0;7m  GNU nano 8.2                       hypridle.conf                                  [1;83H(B[m[40d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[40;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[41d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2dgeneral {[3;5Hlock_cmd = pidof hyprlock || hyprlock[49G# avoid starting multiple hyprlock (B[0;7m>[4;5H(B[mbefore_sleep_cmd = loginctl lock-session    # lock before suspend.[5;5Hafter_sleep_cmd = hyprctl dispatch dpms on  # to avoid having to press a key tw(B[0;7m>[6;1H(B[m}[8dlistener {[9;5Htimeout = 150[9;50H# 2.5min.[10;5Hon-timeout = brightnessctl -s set 10[10;50H# set monitor backlight to minimum(B[0;7m>[11;5H(B[mon-resume = brightnessctl -r[11;50H# monitor backlight restore.[12d}[14dlistener {[15;5Htimeout = 300[15;51H# 5min[16;5Hon-timeout = loginctl lock-session[16;51H# lock screen when timeout has pa(B[0;7m>[17;1H(B[m}[19dlistener {[20;5Htimeout = 330[20;51H# 5.5min[21;5Hon-timeout = hyprctl dispatch dpms off[21;51H# screen off when timeout has pas(B[0;7m>[22;5H(B[mon-resume = scripts/initwallpaper[22;48H# screen on when activity is detecte(B[0;7m>[23;1H(B[m}[25dlistener {[26;5Htimeout = 1800[26;51H# 30min[27;5Hon-timeout = systemctl suspend[27;51H# suspend pc[28d}[2d[?12h[?25h[?25l[?12h[?25h[8d[?25l[?12h[?25h[14d[?25l[?12h[?25h[19d[?25l[?12h[?25h[25d[?25l[?12h[?25h[A[?25l[?12h[?25h[A[?25l[?12h[?25h[A[?25l[?12h[?25h    [?25l[?12h[?25hon-[?25l[?12h[?25h[22;17H[?25l[?12h[?25h[22;25H[?25l[?12h[?25h[22;50H[?25l[?12h[?25h[22;25H[?25l[?12h[?25h[22;50H[?25l[?12h[?25h[22;25H[?25l[39d[J[41d[?12h[?25h[41;1H[?1049l[?1l[?2004l]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ nano hypridle.conf [K/hypridle.confscripts/initWallpaper D[K[K[A[6Pscripts/initWallpaper nano scripts/initWallpaper[A[6Pscripts/initWallpaper [2@nano hypr/hypridle.conf[C[9Pstuff.txt[C[9@hypr/hypridle.conf[C
+[?2004l[?2004h[?1049h[1;41r(B[m[4l[?7h[39;49m[?1h[?1h[?25l[39;49m(B[m[H[2J[39;25H(B[0;1m[37m[41m[ Directory 'hypr' does not exist ][39;49m(B[m[H(B[0;7m  GNU nano 8.2                     hypr/hypridle.conf                               [1;83H(B[m[40d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[40;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[41d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2d[?12h[?25h[?25l[?12h[?25h[?25l[39d[J[41d[?12h[?25h[41;1H[?1049l[?1l[?2004l]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ nano hypr/hypridle.conf [Knano hypridle.conf 
+[?2004l[?2004h[?1049h[1;41r(B[m[4l[?7h[39;49m[?1h[?1h[?25l[39;49m(B[m[H[2J[39;36H(B[0;7m[ Reading... ](B[m[39;34H(B[0;7m[ Read 27 lines ](B[m[H(B[0;7m  GNU nano 8.2                       hypridle.conf                                  [1;83H(B[m[40d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[40;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[41d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2dgeneral {[3;5Hlock_cmd = pidof hyprlock || hyprlock[49G# avoid starting multiple hyprlock (B[0;7m>[4;5H(B[mbefore_sleep_cmd = loginctl lock-session    # lock before suspend.[5;5Hafter_sleep_cmd = hyprctl dispatch dpms on  # to avoid having to press a key tw(B[0;7m>[6;1H(B[m}[8dlistener {[9;5Htimeout = 150[9;50H# 2.5min.[10;5Hon-timeout = brightnessctl -s set 10[10;50H# set monitor backlight to minimum(B[0;7m>[11;5H(B[mon-resume = brightnessctl -r[11;50H# monitor backlight restore.[12d}[14dlistener {[15;5Htimeout = 300[15;51H# 5min[16;5Hon-timeout = loginctl lock-session[16;51H# lock screen when timeout has pa(B[0;7m>[17;1H(B[m}[19dlistener {[20;5Htimeout = 330[20;51H# 5.5min[21;5Hon-timeout = hyprctl dispatch dpms off[21;51H# screen off when timeout has pas(B[0;7m>[22;5H(B[mon-resume = scripts/initwallpaper[22;48H# screen on when activity is detecte(B[0;7m>[23;1H(B[m}[25dlistener {[26;5Htimeout = 1800[26;51H# 30min[27;5Hon-timeout = systemctl suspend[27;51H# suspend pc[28d}[2d[?12h[?25h[?25l[?12h[?25h[8d[?25l[?12h[?25h[14d[?25l[?12h[?25h[8d[?25l[?12h[?25h[2d[?25l[?12h[?25h[8d[?25l[?12h[?25h[14d[?25l[?12h[?25h[19d[?25l[?12h[?25h[25d[?25l[?12h[?25h[A[?25l[?12h[?25h[A[?25l[?12h[?25h[A[?25l[?12h[?25h    [?25l[?12h[?25hon-[?25l[?12h[?25h[22;17H[?25l[?12h[?25h[22;25H[?25l[?12h[?25hi[?25l[?12h[?25hn[?25l[?12h[?25hi[?25l[?12h[?25ht[?25l[39d[K[?12h[?25h[22;30H[?25l[1;75H(B[0;7mModified(B[m[?12h[?25h[22;29Hallpaper [22;47H# screen on when activity is detected[22;29H[?25l[?12h[?25hWallpaper[22;47H # screen on when activity is detecte[22;30H[?25l[39;36H(B[0;7m[ Writing... ](B[m[1;75H(B[0;7m        (B[m[39;34H(B[0;7m[ Wrote 27 lines ](B[m[?12h[?25h[22;30H[?25l[39d[J[41d[?12h[?25h[41;1H[?1049l[?1l[?2004l]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ nano hypridle.conf 
+[?2004l[?2004h[?1049h[1;41r(B[m[4l[?7h[39;49m[?1h[?1h[?25l[39;49m(B[m[H[2J[39;36H(B[0;7m[ Reading... ](B[m[39;34H(B[0;7m[ Read 27 lines ](B[m[H(B[0;7m  GNU nano 8.2                       hypridle.conf                                  [1;83H(B[m[40d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^F(B[m Where Is   (B[0;7m^K(B[m Cut[40;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location[41d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line[2dgeneral {[3;5Hlock_cmd = pidof hyprlock || hyprlock[49G# avoid starting multiple hyprlock (B[0;7m>[4;5H(B[mbefore_sleep_cmd = loginctl lock-session    # lock before suspend.[5;5Hafter_sleep_cmd = hyprctl dispatch dpms on  # to avoid having to press a key tw(B[0;7m>[6;1H(B[m}[8dlistener {[9;5Htimeout = 150[9;50H# 2.5min.[10;5Hon-timeout = brightnessctl -s set 10[10;50H# set monitor backlight to minimum(B[0;7m>[11;5H(B[mon-resume = brightnessctl -r[11;50H# monitor backlight restore.[12d}[14dlistener {[15;5Htimeout = 300[15;51H# 5min[16;5Hon-timeout = loginctl lock-session[16;51H# lock screen when timeout has pa(B[0;7m>[17;1H(B[m}[19dlistener {[20;5Htimeout = 330[20;51H# 5.5min[21;5Hon-timeout = hyprctl dispatch dpms off[21;51H# screen off when timeout has pas(B[0;7m>[22;5H(B[mon-resume = scripts/initWallpaper[22;48H# screen on when activity is detecte(B[0;7m>[23;1H(B[m}[25dlistener {[26;5Htimeout = 1800[26;51H# 30min[27;5Hon-timeout = systemctl suspend[27;51H# suspend pc[28d}[2d[?12h[?25h[?25l[?12h[?25h[3d[?25l[?12h[?25h[8d[?25l[?12h[?25h[14d[?25l[?12h[?25h[19d[?25l[?12h[?25h[20d[?25l[?12h[?25h    [?25l[?12h[?25h[20;15H[?25l[?12h[?25h[20;53H[?25l[?12h[?25h[20;15H[?25l[?12h[?25h3[?25l[?12h[?25h3[?25l[?12h[?25h0[?25l[1;75H(B[0;7mModified(B[m[?12h[?25h[20;17H[1P[?25l[?12h[?25h[1P3[?25l[?12h[?25h[1P[?25l[?12h[?25h5[20;48H # 5.5min[20;16H[?25l[39;34H  (B[0;7m[ Writing... ](B[m[K[1;75H(B[0;7m        (B[m[39;34H(B[0;7m[ Wrote 27 lines ](B[m[?12h[?25h[20;16H[?25l[39d[J[41d[?12h[?25h[41;1H[?1049l[?1l[?2004l]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ hypridle
+[?2004l[LOG] Registered timeout rule for 150s:
+      on-timeout: brightnessctl -s set 10
+      on-resume: brightnessctl -r
+[LOG] Registered timeout rule for 300s:
+      on-timeout: loginctl lock-session
+      on-resume: 
+[LOG] Registered timeout rule for 5s:
+      on-timeout: hyprctl dispatch dpms off
+      on-resume: scripts/initWallpaper
+[LOG] Registered timeout rule for 1800s:
+      on-timeout: systemctl suspend
+      on-resume: 
+[LOG]   | got iface: wl_seat v9
+[LOG]    > Bound to wl_seat v9
+[LOG]   | got iface: wl_data_device_manager v3
+[LOG]   | got iface: wl_compositor v6
+[LOG]   | got iface: wl_subcompositor v1
+[LOG]   | got iface: wl_shm v1
+[LOG]   | got iface: wp_viewporter v1
+[LOG]   | got iface: wp_tearing_control_manager_v1 v1
+[LOG]   | got iface: wp_fractional_scale_manager_v1 v1
+[LOG]   | got iface: zxdg_output_manager_v1 v3
+[LOG]   | got iface: wp_cursor_shape_manager_v1 v1
+[LOG]   | got iface: zwp_idle_inhibit_manager_v1 v1
+[LOG]   | got iface: zwp_relative_pointer_manager_v1 v1
+[LOG]   | got iface: zxdg_decoration_manager_v1 v1
+[LOG]   | got iface: wp_alpha_modifier_v1 v1
+[LOG]   | got iface: zwlr_gamma_control_manager_v1 v1
+[LOG]   | got iface: ext_foreign_toplevel_list_v1 v1
+[LOG]   | got iface: zwp_pointer_gestures_v1 v3
+[LOG]   | got iface: zwlr_foreign_toplevel_manager_v1 v3
+[LOG]   | got iface: zwp_keyboard_shortcuts_inhibit_manager_v1 v1
+[LOG]   | got iface: zwp_text_input_manager_v1 v1
+[LOG]   | got iface: zwp_text_input_manager_v3 v1
+[LOG]   | got iface: zwp_pointer_constraints_v1 v1
+[LOG]   | got iface: zwlr_output_power_manager_v1 v1
+[LOG]   | got iface: xdg_activation_v1 v1
+[LOG]   | got iface: ext_idle_notifier_v1 v1
+[LOG]    > Bound to ext_idle_notifier_v1 v1
+[LOG]   | got iface: ext_session_lock_manager_v1 v1
+[LOG]   | got iface: zwp_input_method_manager_v2 v1
+[LOG]   | got iface: zwp_virtual_keyboard_manager_v1 v1
+[LOG]   | got iface: zwlr_virtual_pointer_manager_v1 v2
+[LOG]   | got iface: zwlr_output_manager_v1 v4
+[LOG]   | got iface: org_kde_kwin_server_decoration_manager v1
+[LOG]   | got iface: hyprland_focus_grab_manager_v1 v1
+[LOG]   | got iface: zwp_tablet_manager_v2 v1
+[LOG]   | got iface: zwlr_layer_shell_v1 v5
+[LOG]   | got iface: wp_presentation v1
+[LOG]   | got iface: xdg_wm_base v6
+[LOG]   | got iface: zwlr_data_control_manager_v1 v2
+[LOG]   | got iface: zwp_primary_selection_device_manager_v1 v1
+[LOG]   | got iface: xwayland_shell_v1 v1
+[LOG]   | got iface: zwlr_screencopy_manager_v1 v3
+[LOG]   | got iface: hyprland_toplevel_export_manager_v1 v2
+[LOG]   | got iface: hyprland_global_shortcuts_manager_v1 v1
+[LOG]   | got iface: xdg_dialog_v1 v1
+[LOG]   | got iface: wp_single_pixel_buffer_manager_v1 v1
+[LOG]   | got iface: wp_security_context_manager_v1 v1
+[LOG]   | got iface: hyprland_ctm_control_manager_v1 v1
+[LOG]   | got iface: wp_drm_lease_device_v1 v1
+[LOG]   | got iface: wp_linux_drm_syncobj_manager_v1 v1
+[LOG]   | got iface: wl_drm v2
+[LOG]   | got iface: zwp_linux_dmabuf_v1 v5
+[LOG]   | got iface: wl_output v4
+[LOG] found 4 rules
+[LOG] wayland done, registering dbus
+[LOG] Using dbus path /org/freedesktop/login1/session/_315
+[ERR] Couldn't connect to session dbus
+err: [org.freedesktop.DBus.Error.FileExists] Failed to request bus name (File exists)
+[LOG] Idled: rule 580d589cb940
+[LOG] Running hyprctl dispatch dpms off
+[LOG] Executing hyprctl dispatch dpms off
+[LOG] Process Created with pid 55041
+ok
+[LOG] Resumed: rule 580d589cb940
+[LOG] Running scripts/initWallpaper
+[LOG] Executing scripts/initWallpaper
+[LOG] Process Created with pid 55043
+ok
+Error: "There is an swww-daemon instance already running on this socket!"
+RANDOMPICS
+[[1;32mI[0m] [1;31mimage[0m: Using image [1;37mspace_saturn.png[0m.
+[[1;32mI[0m] [1;31mcolors[0m: Generating a colorscheme.
+[[1;32mI[0m] [1;31mcolors[0m: Using wal backend.
+WARNING: The convert command is deprecated in IMv7, use "magick" instead of "convert" or "magick convert"
+
+[[1;32mI[0m] [1;31mcolors[0m: Generation complete.
+[[1;32mI[0m] [1;31mwallpaper[0m: Set the new wallpaper.
+]4;0;#0a030e\]4;1;#B03936\]4;2;#D7CA46\]4;3;#713E95\]4;4;#9859B0\]4;5;#A95FCA\]4;6;#7C87E0\]4;7;#dbd1d9\]4;8;#999297\]4;9;#B03936\]4;10;#D7CA46\]4;11;#713E95\]4;12;#9859B0\]4;13;#A95FCA\]4;14;#7C87E0\]4;15;#dbd1d9\]10;#dbd1d9\]11;#0a030e\]12;#dbd1d9\]13;#dbd1d9\]17;#dbd1d9\]19;#0a030e\]4;232;#0a030e\]4;256;#dbd1d9\]708;#0a030e\[[1;32mI[0m] [1;31msequences[0m: Set terminal colors.
+
+[40m    [0m[41m    [0m[42m    [0m[43m    [0m[44m    [0m[45m    [0m[46m    [0m[47m    [0m
+[48;5;8m    [0m[48;5;9m    [0m[48;5;10m    [0m[48;5;11m    [0m[48;5;12m    [0m[48;5;13m    [0m[48;5;14m    [0m[48;5;15m    [0m
+
+[[1;32mI[0m] [1;31mexport[0m: Exported all files.
+[[1;32mI[0m] [1;31mexport[0m: Exported all user files.
+[[1;32mI[0m] [1;31mreload[0m: Reloaded environment.
+[[1;33mW[0m] [1;31mreload[0m: GTK2 reload support requires Python 2.
+[?s[*x[4l[?1l[?5l[?2004l[?1004l[?1000l[?1002l[?1003l[?1005l[?1006l[?8h[?7h[?25hP@kitty-cmd{"cmd":"set-colors","version":[0,26,0],"kitty_window_id":1,"payload":{"all":true}}\Successfully set a new wallpaper and generated colors from it.
+7[?r8ERROR:root:Failed to connect to socket: Connection refused
+^C
+]0;jonathan@archlinux:~/.config/hypr[?2004h[jonathan@archlinux hypr]$ 
+Script done on 2024-12-03 20:03:51-05:00 [COMMAND_EXIT_CODE="0"]

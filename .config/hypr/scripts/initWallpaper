@@ -16,4 +16,5 @@ echo "Successfully set a new wallpaper and generated colors from it."
 
 
 pywalfox update
-# pywal-discord -t default
+pywal-discord -t default
+${HOME}/.config/dunst/initdust.sh

@@ -1,6 +1,6 @@
 {
-    "height": 40, // Waybar height (to be removed for auto height)
-    "layer": "top", // Waybar at top layer
+    "height": 40,
+    "layer": "top",
     "modules-left": ["custom/launcher", "cpu", "memory"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": [
@@ -21,7 +21,7 @@
             "default": " "
         },
         "persistent-workspaces": {
-            "*": 4
+            "*": 3
         }
     },
     "tray": {
@@ -99,9 +99,8 @@
         "tooltip": true
     },
     "custom/weather": {
-        "exec": "python3 ~/.config/waybar/scripts/weather.py",
-        "restart-interval": 300,
-        "return-type": "json"
+	    "interval": 600,
+	    "exec": "python -O ~/.config/waybar/scripts/weather.py"
     },
     "custom/spotify": {
         "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
