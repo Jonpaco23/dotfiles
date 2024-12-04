@@ -56,6 +56,10 @@ window#waybar.hidden {
     color: @color11;
 }
 
+#custom-weather{
+    color: @color12;
+}
+
 #workspaces {
 }
 

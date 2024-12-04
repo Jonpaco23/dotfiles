@@ -1,7 +1,12 @@
 {
-    "height": 40,
+    "height": 44,
     "layer": "top",
-    "modules-left": ["custom/launcher", "cpu", "memory"],
+    "modules-left": [
+        "custom/launcher", 
+        "cpu", 
+        "memory", 
+        "custom/weather"
+    ],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": [
         "tray",
@@ -100,7 +105,8 @@
     },
     "custom/weather": {
 	    "interval": 600,
-	    "exec": "python -O ~/.config/waybar/scripts/weather.py"
+        "format": "{}",
+	    "exec": "~/.config/waybar/scripts/weather.sh"
     },
     "custom/spotify": {
         "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
@@ -116,7 +122,7 @@
     },
     "custom/launcher": {
         "format": " 󰣇 ",
-        "on-click": "pkill wofi && wofi"
+        "on-click": "wofi"
     },
     "custom/wallpaper": {
         "format": "",
