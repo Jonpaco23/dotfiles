@@ -4,7 +4,7 @@ discord
 betterdiscord
 pywal
 vscode
-pywal-vscode
+Wal Theme - Vscode Extensions
 pywal-fox
 kitty
 dwg-bar
@@ -13,3 +13,5 @@ pywal-discord
 pavucontrol
 blueberry
 python-requests
+youtube-music
+youwal
