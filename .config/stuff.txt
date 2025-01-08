@@ -1,0 +1,15 @@
+wofi
+waybar
+discord
+betterdiscord
+pywal
+vscode
+pywal-vscode
+pywal-fox
+pulseaudio
+kitty
+dwg-bar
+neofetch
+pywal-discord
+pavucontrol
+blueberry
