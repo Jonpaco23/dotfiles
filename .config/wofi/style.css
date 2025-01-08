@@ -1,4 +1,4 @@
-@import 'home/jon/.cache/wal/colors-waybar.css';
+@import '.cache/wal/colors-waybar.css';
 
 @define-color txt @color7;
 @define-color bg @color0;
