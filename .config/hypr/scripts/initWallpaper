@@ -14,7 +14,7 @@ wal -i ${DIR}/${RANDOMPICS}
 
 echo "Successfully set a new wallpaper and generated colors from it."
 
-sed -i 's,''path = .*,''path = '"${PICTURE}"',1' ${HOME}/.config/hypr/hyprlock.conf
+sed -i 's,''path = .*,''path = '"${DIR}/${RANDOMPICS}"',1' ${HOME}/.config/hypr/hyprlock.conf
 pywalfox update
 pywal-discord -t default
 ${HOME}/.config/dunst/initdust.sh

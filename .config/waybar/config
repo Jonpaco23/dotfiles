@@ -103,10 +103,11 @@
         "format-time": "{H}h {M}min",
         "tooltip": true
     },
-    "custom/weather": {
-	    "interval": 600,
+    "custom/weather": {	
         "format": "{}",
-	    "exec": "~/.config/waybar/scripts/weather.sh"
+        "interval": 600,
+	"exec": "~/.config/waybar/scripts/weather.py",
+	"return-type": "json"
     },
     "custom/spotify": {
         "exec": "python3 ~/.config/waybar/scripts/mediaplayer.py --player spotify",
