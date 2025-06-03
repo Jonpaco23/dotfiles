@@ -18,3 +18,4 @@ youwal
 swww
 McontrolCenter - fans and battery
 brightnessctl
+tailscale
