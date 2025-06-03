@@ -2,6 +2,7 @@
 
 export PATH="${PATH}:${HOME}/.local/bin/"
 DIR=$HOME/.wallpaper
+LOGSEQ=$HOME/logseq/logseq
 PICS=($(ls ${DIR}))
 
 RANDOMPICS=${PICS[ $RANDOM % ${#PICS[@]} ]}
@@ -26,9 +27,15 @@ swww img ${DIR}/${RANDOMPICS} --transition-type grow --transition-fps 60 --trans
 wal -e -i ${DIR}/${RANDOMPICS}
 
 sed -i 's,''path = .*,''path = '"${DIR}/${RANDOMPICS}"',1' ${HOME}/.config/hypr/hyprlock.conf
+ln -sf ${DIR}/${RANDOMPICS} $HOME/.config/.current_wallpaper
+
+ags -q
 pywalfox update
 pywal-discord -t default
 ${HOME}/.config/dunst/initdunst.sh
+${HOME}/Youwal/youwal
+#cat ~/.cache/wal/colors.css > $LOGSEQ/custom.css
+#cat $LOGSEQ/colors.css >> $LOGSEQ/custom.css
 
 waybar
 

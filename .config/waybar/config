@@ -12,6 +12,7 @@
     "modules-right": [
         "tray",
         "custom/wallpaper",
+        "custom/tailscale",
         "bluetooth",
         "network",
         "pulseaudio",
@@ -133,5 +134,18 @@
     "custom/theme": {
         "format": "",
         "on-click": "~/.config/waybar/scripts/theme.sh"
+    },
+    "custom/tailscale": {
+        "exec": "~/.config/waybar/scripts/tailscale.sh --status",
+        "on-click": "exec ~/.config/waybar/scripts/tailscale.sh --toggle",
+        "exec-on-event": true,
+        "format": "{icon}",
+        "format-icons": {
+            "connected": " Connected",        
+            "stopped": " Disconnected"
+        },
+        "tooltip": true,
+        "return-type": "json",
+        "interval": 3,
     }
 }

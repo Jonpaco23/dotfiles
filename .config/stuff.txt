@@ -16,3 +16,5 @@ python-requests
 youtube-music
 youwal
 swww
+McontrolCenter - fans and battery
+brightnessctl
