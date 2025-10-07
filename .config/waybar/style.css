@@ -23,6 +23,7 @@ window#waybar.hidden {
 #clock,
 #cpu,
 #memory,
+#temperature,
 #custom-media,
 #tray,
 #mode,
@@ -160,10 +161,6 @@ window#waybar.hidden {
     color: @color13;
     border-radius: 0 8px 8px 0;
     border-left: none;
-}
-
-#pulseaudio.muted {
-    color: @color11;
 }
 
 #backlight {
