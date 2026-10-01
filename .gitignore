@@ -1,0 +1,10 @@
+# 1. Ignore everything
+*
+
+# 2. Do not ignore the .gitignore file itself
+!.gitignore
+
+# 3. Explicitly allow specific files or extensions
+!.wallpaper/
+!.bashrc
+!.config/

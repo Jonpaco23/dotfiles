@@ -4,6 +4,7 @@
 
 neofetch
 
+export TERM=kitty
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
@@ -28,3 +29,5 @@ PATH=$HOME/.pyenv/shims:$PATH
 #unset __conda_setup
 # <<< conda initialize <<<
 
+
+. "$HOME/.local/bin/env"

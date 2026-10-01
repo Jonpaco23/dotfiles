@@ -111,7 +111,8 @@
         "format-alt": "{icon}  {time}",
         "format-icons": ["", "", "", "", ""],
         "format-time": "{H}h {M}min",
-        "tooltip": true
+        "tooltip": true,
+	"on-click": "tlpui"
     },
     "custom/weather": {	
         "format": "{}",
@@ -154,6 +155,6 @@
         },
         "tooltip": true,
         "return-type": "json",
-        "interval": 3,
+        "interval": 3
     }
 }
